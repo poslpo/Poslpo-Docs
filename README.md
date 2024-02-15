@@ -1,37 +1,70 @@
-I'd be happy to help you make your website more attractive! However, I'll need more information to provide specific recommendations.
+Poslpo
 
-Here are some key areas to consider:
+This website is built using Docusaurus, a modern static website generator.
+Installation
 
-Visual Design:
+ruby
 
-    Color Scheme: Does your color scheme align with your brand identity and target audience? Is it easy on the eyes and uses harmonious combinations?
-    Typography: Are your fonts clear, readable, and consistent throughout the site? Do they reflect your brand's personality?
-    Images and Multimedia: Do you use high-quality, relevant images and videos that engage visitors and support your content?
-    Layout and White Space: Is your layout balanced and easy to navigate? Do you use white space effectively to create breaks and improve readability?
-    Responsiveness: Does your website adapt seamlessly to different screen sizes and devices for optimal user experience?
+$ yarn
 
-Content and User Experience:
+Local Development
 
-    Clarity and Conciseness: Is your content clear, concise, and well-organized? Does it answer users' questions and provide value?
-    Engaging Tone and Voice: Does your content use a tone and voice that resonates with your target audience? Is it engaging and informative?
-    Navigation: Is your navigation clear, intuitive, and easy to use? Can users find what they need quickly and easily?
-    Call to Action: Do you have clear and compelling calls to action that encourage visitors to take the next step?
-    Accessibility: Is your website accessible to users with disabilities? This includes using alt text for images, proper semantic HTML, and ensuring your layout is keyboard-navigable.
+ruby
 
-Technical Performance:
+$ yarn start
 
-    Loading Speed: Does your website load quickly and efficiently on all devices? Users are likely to abandon a slow-loading site.
-    Mobile Optimization: Is your website optimized for mobile devices, which account for a large portion of web traffic?
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Quick Start ⏱️
 
-Analytics and Testing:
+Understand Docusaurus in 5 minutes by playing!
 
-    Tracking Goals: Do you have clear goals for your website and track relevant metrics to measure success?
-    Testing and Iteration: Are you continuously testing different design and content elements to see what works best for your audience?
+Create a new Docusaurus site and follow the very short embedded tutorial.
 
-Once you provide more details about your website's goals, target audience, and current design, I can offer more specific advice on how to make it more attractive and engaging.
+Install Node.js and create a new Docusaurus site:
 
-Here are some additional resources that you may find helpful:
+bash
 
-    Docusaurus Documentation: https://docusaurus.io/docs/introduction
-    Web Design Inspiration: https://www.awwwards.com/
-    Website User Experience (UX) Best Practices: https://www.nngroup.com/articles/
+npx create-docusaurus@latest my-website classic
+
+Start the site:
+
+bash
+
+cd my-website
+npx docusaurus start
+
+Open http://localhost:3000 and follow the tutorial.
+
+Tip: Use docusaurus.new to test Docusaurus immediately in your browser!
+
+Or read the 5-minute tutorial online.
+Build
+
+ruby
+
+$ yarn build
+
+This command generates static content into the build directory and can be served using any static contents hosting service.
+Deployment
+
+Using SSH:
+
+ruby
+
+$ USE_SSH=true yarn deploy
+
+Not using SSH:
+
+javascript
+
+$ GIT_USER=<Your GitHub username> yarn deploy
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the gh-pages branch.
+
+Comparison with other tools
+
+Across all static site generators, Docusaurus has a unique focus on documentation sites and has many out-of-the-box features.
+
+We've also studied other main static site generators and would like to share our insights on the comparison, hopefully helping you navigate through the prismatic choices out there.
+
+Feel free to further customize or adjust the content as needed. If you have any more changes or need additional assistance, just let me know!
